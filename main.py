@@ -16,4 +16,4 @@ def read_item(item_id: int, q: str = None):
 @app.on_event("shutdown")
 def fun():
     print("In Shutdown")
-    time.sleep(10000)
+    time.sleep(10)
