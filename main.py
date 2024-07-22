@@ -19,6 +19,7 @@ def fun():
     while c!=0:
         print("sleeping")
         time.sleep(10)
+    print("Shutdowning Down")
 
 
 @app.middleware("http")
