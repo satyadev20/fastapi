@@ -16,7 +16,7 @@ def read_root():
 def fun():
     print("In Shutdown")
     while c!=0:
-        print("sleeping")
+        print("sleepings")
         time.sleep(10)
 
 
