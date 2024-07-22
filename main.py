@@ -13,5 +13,5 @@ def read_root():
 @app.on_event("shutdown")
 def fun():
     print("In Shutdown")
-    time.sleep(100)
+    time.sleep(300)
 
