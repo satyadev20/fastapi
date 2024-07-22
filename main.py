@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    print("in root")
+    print("in root ")
     time.sleep(200)
     print("done sleeping")
     return 'done'
