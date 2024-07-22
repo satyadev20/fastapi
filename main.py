@@ -14,6 +14,7 @@ def read_root():
 
 @app.on_event("shutdown")
 def fun():
+    global c
     print("In Shutdown")
     while c!=0:
         print("sleepings")
@@ -22,6 +23,7 @@ def fun():
 
 @app.middleware("http")
 async def add_process_time_header(request: Request, call_next):
+    global c
     c=c+1
     response = await call_next(request)
     c=c-1
