@@ -17,7 +17,7 @@ def fun():
     global c
     print("In Shutdown")
     while c!=0:
-        print("sleepings")
+        print("sleeping")
         time.sleep(10)
 
 
