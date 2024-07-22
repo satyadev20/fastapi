@@ -7,6 +7,7 @@ app = FastAPI()
 def read_root():
     print("in root")
     time.sleep(200)
+    print("done sleeping")
     return 'done'
 
 @app.on_event("shutdown")
